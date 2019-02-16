@@ -1,17 +1,18 @@
 header {
-    color:#00eeff;
+    color:#2e2828;
     display: grid;
     grid-area: auto;
     width: 800px;
-    height: 400px;   
+    height: 400px; 
+    margin-left: 0%; 
 }
 
 .container {
     display: grid;
     color:black;
     background: #f5efef;
-    padding: 25px;
-    border-block-start: 2px solid gray;
+    border-block-start: 1px solid gray;
+    margin-left: 20px;
 }
 
 .container .name {
@@ -55,30 +56,29 @@ header {
 }
 
 h2 {
-    font-size: 75px;
-    color: aqua;
+    font-size: 25px;
+    color: #1f3131;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-img {
-    border-block-start: 2px solid gray;
-
 }
 
 .container {
     display: grid;
-    width: 1400px;
+    width: 600px;
     height: 50px;
     grid-template-columns: 1fr;
     grid-auto-rows: 1fr 1fr;
 }
 
 h1 {
-    grid-column: 1 / span 1;
-    grid-row: 1 / span 1;
-    border: 1px solid #a1a1e7;
-    background: #a1a1e7;
+    border: 1px solid #2121af;
+    background: #7abadf;
     padding: 25px;
+    color: #332a2a
 }
+.contact {
+    border: 1px solid #2187af;
+    background: #7abadf;
+}
+
 
 
